@@ -1,0 +1,286 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	background-color: #0e0e0e;
+}
+
+#inicio {
+	background: url(assets/background.png) no-repeat;
+}
+
+header {
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+header ul {
+	padding-top: 10px;
+}
+
+header li {
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	gap: 20px;
+}
+
+header button {
+	width: 170px;
+	border: none;
+	background: white url(assets/logo_MetaMask.svg) no-repeat 10% center;
+	padding: 15px 5px 15px 40px;
+	font-weight: 700;
+}
+
+#destaque {
+	padding: 80px 100px 0 80px;
+	display: flex;
+	justify-content: space-around;
+	gap: 110px;
+}
+
+#grupo-artistas {
+	padding-top: 20px;
+	display: flex;
+	gap: 0 20px;
+}
+
+#inicio h1 {
+	line-height: 1.6;
+	font-size: 36px;
+}
+
+#galeria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 25px 5px;
+	padding: 100px 0;
+}
+
+#galeria img {
+	border: 1px grey solid;
+	width: 22%;
+}
+
+#section1 {
+	display: flex;
+	border-bottom: 1px grey solid;
+}
+
+#section1 aside {
+	margin-left: 200px;
+	padding-top: 50px;
+	border-right: 1px grey solid;
+	flex: 1;
+}
+
+#section1 aside p{
+	padding-bottom: 50px;
+	font-weight: 700;
+	color: grey;
+}
+
+#section1 main {
+	flex: 5;
+}
+
+#section1 h2 {
+	font-size: 40px;
+}
+
+#section1 main p{
+	padding: 50px;
+}
+
+.texto a {
+	padding: 50px;
+}
+
+#texto {
+	display: flex;
+}
+
+#background {
+	max-width: 100%;
+	height: auto;
+	padding-top: 50px;
+	position: relative;
+	top: 5px
+}
+
+h3 {
+	padding: 100px;
+	padding-left: 200px;
+	font-size: 40px;
+}
+
+#section2 main {
+	display: flex;
+	justify-content: center;
+}
+
+#esquerda {
+	border-right: 1px solid grey;
+}
+
+#esquerda, #direita {
+	padding: 0 130px;
+}
+
+.nomeNFT {
+	font-size: 25px;
+	padding: 50px 0;
+	background: url(assets/arrow-white.svg) no-repeat center right;
+}
+
+.venda {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 700;
+	color: grey;
+	padding-bottom: 20px;
+}
+
+#section3 main {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 50px;
+	font-weight: 700;
+}
+
+#section3 h1 {
+	text-align: center;
+	font-size: 50px;
+	padding: 75px;
+}
+
+.artista-destaque {
+	display: flex;
+	justify-content: space-around;
+	padding: 25px 0;
+	width: 350px;
+	height: 150px;
+	background-color: #252525;
+}
+
+.artista-destaque-jakeliny {
+	display: flex;
+	justify-content: space-around;
+	padding: 25px 0;
+	width: 350px;
+	height: 150px;
+	background-color: #ff5b50;
+	color: white !important; 
+}
+
+.texto-artista {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.fotografia {
+	color: #ff5b50;
+}
+
+.ver-artistas {
+	background: url(assets/arrow-orange.svg) no-repeat top right;
+	width: 200px;
+	padding-bottom: 100px;
+}
+
+#footer1, #footer2, #footer3 {
+	display: flex;
+	justify-content: space-around;
+	background-color: #252525;
+}
+
+#footer1 {
+	height: 200px;
+	border-bottom: 1px gray solid;
+}
+
+#logo2 {
+	width: 400px;
+	margin-right: 300px;
+}
+
+#seta {
+	width: 50px;
+	height: 50px;
+	background: #ff5b50;
+	align-items: center;
+	margin-top: 5%;
+}
+
+#seta img {
+	position: relative;
+	top: 12px;
+	left: 14px;
+}
+
+#footer2 {
+	border-bottom: 1px grey solid;
+}
+
+#footer2 h1 {
+	width: 350px;
+	padding-bottom: 20px;
+}
+
+#contato {
+	flex: 1;
+	align-self: center;
+	padding: 40px 150px;
+	border-right: 1px grey solid;
+}
+
+#contato input {
+	background-color: #0d0d0d;
+	color: gray;
+	height: 47px;
+	border: none;
+}
+
+#contato button{
+	width: 100px;
+	border: none;
+	padding: 15px 0;
+	font-weight: 700;
+}
+
+#tabela {
+	flex: 2;
+}
+
+table {
+	padding: 50px;
+}
+
+td {
+	color: #0d0d0d;
+}
+
+#footer3 ul {
+	list-style: none;
+	padding: 70px 0;
+}
+
+#footer3 li {
+	display: inline;
+	padding-left: 20px;
+}
+
+#footer3 p {
+	font-weight: 700;
+	color: gray;
+	padding: 70px 0;
+}
